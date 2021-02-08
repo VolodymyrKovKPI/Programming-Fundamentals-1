@@ -19,9 +19,9 @@ namespace Lab3.Forms
                 input.Split();
             }
             
-            input.TrimStart(' ').Insert(5, "Ho-ho-ho").PadRight(3);
+            string result = input.TrimStart(' ').Insert(5, "Ho-ho-ho").PadRight(3);
 
-            OutputString.Text = input;
+            OutputString.Text = result;
         }
 
         private void DoWork_Click(object sender, EventArgs e)
